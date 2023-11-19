@@ -9,7 +9,7 @@
 #     (datetime: Nov 13, 2023, 2:10 AM GMT+1)                                  #
 #                                                                              #
 #          The following script is a modified version of his script.           #
-#            This version install the complete Born2beroot project,            #
+#             This version installs the whole Born2beroot project,             #
 #                          including the bonus part !                          #
 #                (except the partitionning for obvious reasons)                #
 #                                                                              #
@@ -23,9 +23,9 @@
 #     > It's easy to type
 #     > You can use it absolutely everywhere... (except for your bank account)
 
-# PS2: If the pastebin ever goes down, you can take it from my github repo:
-#      > https://github.com/Luzog78/42-Born2beroot/blob/master/monitoring.sh
-MONITORING_URL="https://pastebin.com/raw/eJ22qPTS"
+# PS2: If the github repo ever goes down, you can try to use the pastebin:
+#      > https://pastebin.com/raw/eJ22qPTS
+MONITORING_URL="https://raw.githubusercontent.com/Luzog78/42-Born2beroot/main/monitoring.sh"
 
 if [[ $EUID -ne 0 ]]; then
     echo "This script must be run with administrative privileges (sudo)."
